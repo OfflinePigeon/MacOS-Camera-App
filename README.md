@@ -1,5 +1,3 @@
-A sleek, black-themed native camera app for macOS with live viewfinder, digital zoom, and one-click photo capture — built with Python, OpenCV, and Flask. Made using Claude Sonnet 5.
-
 # Camera App
 
 A sleek, black-themed camera app for macOS — built with Python (OpenCV + Flask) and a native window via pywebview. Live viewfinder, digital zoom, grid overlay, and a film strip of your shots, all wrapped in a UI that looks like it belongs on your Mac.
@@ -14,6 +12,7 @@ A sleek, black-themed camera app for macOS — built with Python (OpenCV + Flask
 - Automatic sharpening pass on captured photos
 - Rule-of-thirds grid overlay toggle
 - Film strip of recent shots — click any thumbnail for a full-size preview
+- Saves to folder named CameraApp (Not to be confused with the executable file camera_app)
 - Delete photos straight from the app (moves to Trash, fully recoverable)
 - One Finder shortcut to jump to your saved photos
 
