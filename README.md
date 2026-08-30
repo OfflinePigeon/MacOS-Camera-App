@@ -12,7 +12,7 @@ A sleek, black-themed camera app for macOS — built with Python (OpenCV + Flask
 - Automatic sharpening pass on captured photos
 - Rule-of-thirds grid overlay toggle
 - Film strip of recent shots — click any thumbnail for a full-size preview
-- Saves to folder named CameraApp (Not to be confused with the executable file camera_app)
+- Saves photos to a `CameraApp` folder in Pictures (not to be confused with the `camera_app` project folder)
 - Delete photos straight from the app (moves to Trash, fully recoverable)
 - One Finder shortcut to jump to your saved photos
 
@@ -20,9 +20,9 @@ A sleek, black-themed camera app for macOS — built with Python (OpenCV + Flask
 
 Clone or download this repo, then run once:
 
-```bash
+\`\`\`bash
 bash install.sh
-```
+\`\`\`
 
 This installs the Python dependencies and registers a global `camera` command.
 
@@ -30,9 +30,9 @@ This installs the Python dependencies and registers a global `camera` command.
 
 From any Terminal window:
 
-```bash
+\`\`\`bash
 camera
-```
+\`\`\`
 
 | Action | How |
 |---|---|
@@ -56,4 +56,3 @@ camera
 ## First-time camera permission
 
 The first time you launch the app, macOS may ask for camera access. If the feed stays black, check **System Settings -> Privacy & Security -> Camera** and make sure Terminal (or whichever app launches `camera`) is allowed.
-
