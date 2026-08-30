@@ -20,19 +20,18 @@ A sleek, black-themed camera app for macOS — built with Python (OpenCV + Flask
 
 Clone or download this repo, then run once:
 
-\`\`\`bash
+```bash
 bash install.sh
-\`\`\`
-
+```
 This installs the Python dependencies and registers a global `camera` command.
 
 ## Usage
 
 From any Terminal window:
 
-\`\`\`bash
+```bash
 camera
-\`\`\`
+```
 
 | Action | How |
 |---|---|
